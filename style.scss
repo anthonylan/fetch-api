@@ -1,0 +1,42 @@
+$gray: #333;
+$white: #fff;
+
+body{
+  background-color: $gray;
+}
+.wrapper{
+  display:flex;
+  justify-content: center;
+  padding-top: 20px;
+  #input{
+    width:430px;
+    height:20px;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+}
+
+.output-wrapper{
+  width: 40%;
+  margin: 0 auto;
+  .output{
+    color: $gray;
+    margin-top: 50px;
+    display:block;
+    
+   ul{
+     margin: 40px;
+     padding: 20px;
+     background: $white;
+      
+    }
+    li{
+      list-style: none;
+      padding:5px;
+      color: $gray;
+    }
+  }
+}
+
